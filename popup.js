@@ -20,8 +20,8 @@ goToOpenQueue.onclick = function(element) {
 
    chrome.tabs.executeScript(
     {file:'GetOn.js'},function(element){
-
-      chrome.tabs.executeScript({file:'RequestHelp.js'});
+      setTimeout(function(){chrome.tabs.executeScript({file:'RequestHelp.js'});},5);
+      
     }
     );
     return true;
