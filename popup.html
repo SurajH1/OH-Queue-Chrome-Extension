@@ -1,16 +1,30 @@
 <!DOCTYPE html>
   <html>
+    
     <head>
       <style>
+
         button {
           height: 30px;
           width: 30px;
           outline: none;
         }
+        input {
+          height: 30px;
+          width: 40px;
+          outline: blue; 
+
+        }
+
       </style>
     </head>
+
     <body>
-      <button id="changeColor"></button>
+      <button id="goToOpenQueue"></button>
+      <input id = "opentime" placeholder="What time does it open?"></input>
+      <input id = "Central/North" placeholder="Enter N for North and C for Central" width = 60px></input>
+      <input id = "Request" placeholder= "Change the code to always have this value as the Request Help button"></input>
       <script src="popup.js"></script>
+    </script>
     </body>
   </html>
