@@ -2,7 +2,7 @@
     "name":"Get on the Office Hour Queue",
     "version": "1.0",
     "description": "Build an Extension!",
-    "permissions": ["activeTab","declarativeContent","storage", "alarms"],
+    "permissions": ["activeTab","declarativeContent","storage", "alarms", "RequestHelp.js"],
     "background": {
         "scripts": ["background.js"],
         "persistent": false
@@ -16,6 +16,7 @@
         "48": "images/get_started48.png",
         "128": "images/get_started128.png"
       },
+     
     "manifest_version": 2
     
 }
